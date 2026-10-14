@@ -1,0 +1,20 @@
+# Dataset dan checkpoint tetap di luar Git.
+dataset/
+data/
+Model/
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Kredensial dan hasil sementara.
+kaggle.json
+.env
+.env.*
+!.env.example
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
